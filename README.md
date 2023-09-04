@@ -1,1 +1,1 @@
-# finalprojectWebdev
+# Итоговый проект по курсу "Веб-вёрстка HTML/CSS"
