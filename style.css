@@ -476,6 +476,7 @@ a {
     line-height: normal;
     background-color: #E1E1E1;
     padding-left: 22px;
+    padding-right: 22px;
 }
 
 .subscribe_btn {
@@ -802,5 +803,64 @@ a {
         padding: 43px 62px 9px;
         flex-direction: column-reverse;
         gap: 40px;
+    }
+}
+
+@media (max-width: 374px) {
+    /* раздел категории */
+    .section_categories {
+        grid-template-columns: repeat(1, 290px);
+    }
+
+    .women {
+        background-size: 296px;
+    }
+    
+    .men {
+        background-size: 296px;
+    }
+    
+    .kids {
+        background-size: 296px;
+    }
+    
+    /* раздел рекомендуемое */
+    .featured_items {
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .featured_item {
+        width: 300px;
+    }
+
+    .img_featured {
+        width: 300px;
+    }
+           
+    .featured_content {
+        width: 268px;
+    }
+
+    .featured_text {
+        width: 280px;
+    }
+
+    .featured_item_cart {
+        padding: 147px 90px
+    }
+
+    /* раздел преимущества */
+    .benefit_text {
+        width: 300px;
+    }
+
+    /* раздел подпишись */
+    .subscribe_input {
+        width: 150px;
+    }
+
+    /* подвал сайта */
+    .footer {
+        padding: 43px 36px 9px;
     }
 }
