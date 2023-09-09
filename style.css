@@ -811,18 +811,6 @@ a {
     .section_categories {
         grid-template-columns: repeat(1, 290px);
     }
-
-    .women {
-        background-size: 296px;
-    }
-    
-    .men {
-        background-size: 296px;
-    }
-    
-    .kids {
-        background-size: 296px;
-    }
     
     /* раздел рекомендуемое */
     .featured_items {
